@@ -5,7 +5,14 @@ Vagrant environment for netacad devops training June 19th - 23rd.
 ## Install
 
 1. Get Vagrant
-[https://releases.hashicorp.com/vagrant/1.9.5/vagrant_1.9.5_x86_64.dmg]()
+[https://releases.hashicorp.com/vagrant/1.9.5/vagrant_1.9.5_x86_64.dmg](https://releases.hashicorp.com/vagrant/1.9.5/vagrant_1.9.5_x86_64.dmg)
+
+On WASTC Mac's you will need to run the following command INSTEAD of downloading above.
+
+```
+mkdir ~/netacad-vagrant
+wget https://raw.githubusercontent.com/matjohn2/netacad-vagrant/master/vagrant
+```
 
 2. Get the 'Vagrantfile' from this repository.
 ```
