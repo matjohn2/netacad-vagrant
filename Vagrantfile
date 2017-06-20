@@ -66,6 +66,6 @@ Vagrant.configure("2") do |config|
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
    apt-get update
-   apt-get install -y docker.io python-pip build-essential libssl-dev libffi-dev python-dev python-venv
+   apt-get install -y docker.io python-pip build-essential libssl-dev libffi-dev python-dev
   SHELL
 end
