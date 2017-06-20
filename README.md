@@ -9,7 +9,9 @@ Vagrant environment for netacad devops training June 19th - 23rd.
 
 2. Get the 'Vagrantfile' from this repository.
 ```
-wget https://raw.githubusercontent.com/matjohn2/netacad-vagrant/master/Vagrantfile 
+mkdir ~/netacad-vagrant
+cd ~/netacad-vagrant
+wget https://raw.githubusercontent.com/matjohn2/netacad-vagrant/master/Vagrantfile
 ```
 3. ```vagrant up```
 
@@ -20,4 +22,3 @@ wget https://raw.githubusercontent.com/matjohn2/netacad-vagrant/master/Vagrantfi
 Doing everything inside the ```/vagrant``` directory in the VM will make the contents available to the host OS (in whatever directory you did the ```vagrant up```) meaning you will be able to use a graphical text editor from the mac if you prefer when we are doing the coding/hands on/git excercises.
 
 Changes made on the mac will be reflected in the VM.
-
